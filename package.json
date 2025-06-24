@@ -1,6 +1,6 @@
 {
 	"name": "@geeklab.app/audiencelab-angular-sdk",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Angular SDK for AudienceLab by Geeklab",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
