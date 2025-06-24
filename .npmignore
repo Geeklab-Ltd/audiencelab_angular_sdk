@@ -1,0 +1,35 @@
+############################################
+# npm package ignore list for AudienceLab Angular SDK
+# Only publish compiled output and metadata
+############################################
+
+# 1. Ignore development source and tests
+src/
+**/*.spec.ts
+
+# 2. Ignore configuration and build files not needed in package
+jest.config.js
+tsconfig.json
+.eslint*
+
+# 3. Ignore local environment, IDE, and OS files
+.vscode/
+.idea/
+.DS_Store
+
+# 4. Ignore coverage and logs
+coverage/
+.nyc_output/
+*.log
+
+# 5. Ignore git files and archives
+.git/
+*.tgz
+
+# 6. Ensure the compiled output and type declarations are INCLUDED
+!dist/
+!dist/**/*
+
+# 7. Keep essential documentation
+!README.md
+!LICENSE.md

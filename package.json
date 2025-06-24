@@ -1,22 +1,37 @@
 {
-  "name": "@geeklab.app/audiencelab-angular-sdk",
-  "version": "0.1.0",
-  "description": "Angular SDK for AudienceLab by Geeklab",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "scripts": {
-    "build": "tsc -p tsconfig.json",
-    "test": "jest"
-  },
-  "dependencies": {
-    "@angular/core": "^17.0.0",
-    "axios": "^1.7.8"
-  },
-  "devDependencies": {
-    "@types/jest": "^29.5.0",
-    "jest": "^29.7.0",
-    "jest-environment-jsdom": "^30.0.0",
-    "ts-jest": "^29.1.1",
-    "typescript": "^5.0.0"
-  }
+	"name": "@geeklab.app/audiencelab-angular-sdk",
+	"version": "1.0.0",
+	"description": "Angular SDK for AudienceLab by Geeklab",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"files": [
+		"dist"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/geeklab-app/audiencelab_angular_sdk.git"
+	},
+	"license": "LICENSE.md",
+	"publishConfig": {
+		"access": "public"
+	},
+	"engines": {
+		"node": ">=18"
+	},
+	"scripts": {
+		"build": "tsc -p tsconfig.json",
+		"test": "jest",
+		"prepublishOnly": "npm run build"
+	},
+	"dependencies": {
+		"@angular/core": "^17.0.0",
+		"axios": "^1.7.8"
+	},
+	"devDependencies": {
+		"@types/jest": "^29.5.0",
+		"jest": "^29.7.0",
+		"jest-environment-jsdom": "^30.0.0",
+		"ts-jest": "^29.1.1",
+		"typescript": "^5.0.0"
+	}
 }
