@@ -21,6 +21,7 @@
 	"scripts": {
 		"build": "tsc -p tsconfig.json",
 		"test": "jest",
+		"test:int": "jest --testMatch=\"**/*.integration.spec.ts\" --runInBand",
 		"prepublishOnly": "npm run build"
 	},
 	"dependencies": {
