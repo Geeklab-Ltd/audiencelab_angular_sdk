@@ -9,7 +9,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/geeklab-app/audiencelab_angular_sdk.git"
+		"url": "git+https://github.com/Geeklab-Ltd/audiencelab_angular_sdk"
 	},
 	"license": "LICENSE.md",
 	"publishConfig": {
